@@ -1,0 +1,13 @@
+[1mdiff --git a/js/jiazai.js b/js/jiazai.js[m
+[1mindex 883429a..b7702cc 100644[m
+[1m--- a/js/jiazai.js[m
+[1m+++ b/js/jiazai.js[m
+[36m@@ -223,7 +223,7 @@[m
+                     [m
+                 },[m
+                 error:function(msg){[m
+[31m-                    alert(msg)[m
+[32m+[m[32m                    alert(msg);[m
+                 }[m
+             })[m
+         }[m
