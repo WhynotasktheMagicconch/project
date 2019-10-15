@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/_zongyangshi.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/jquery3.4.1.js"></script>
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/login1.js"></script>
+</head>
+<body>
+    <div class="w" id="logo">
+        <div><a href="http://www.newmotor.com.cn/" title="牛摩网首页"><img src="http://www.newmotor.com.cn/topimages/newlogo1.gif" alt="牛摩网" width="139" height="58"></a></div>
+    </div> 
+
+    <div class="w" id="entry">
+            <div class="mt">
+              <h2>用户登录</h2>
+              <b></b><span style="text-align:right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> </div>
+            <div class="mc" style="padding-top:50px;">
+            
+              <div class="form">
+                <div class="item"><span class="label">账&nbsp;&nbsp;户：</span>
+                  <div class="fl">
+                    <input name="Username" maxlength="60" id="Username" tabindex="1" onblur="if(this.value==''){this.value='用户名/手机号';this.style.color='#999'}" onfocus="if(this.value=='用户名/手机号'){this.value='';this.style.color='#333'}" value="用户名/手机号" class="text_blank" autocomplete="off" type="text">
+                    <label id="loginname_succeed" class="blank invisible"></label>
+                    <span class="clr"></span>
+                    <label id="loginname_error"></label>
+                  </div>
+                </div>
+                <div class="item"> <span class="label">密&nbsp;&nbsp;码：</span>
+                  <div class="fl">
+                  
+                    <input name="Password" maxlength="60" id="Password" tabindex="2" class="text"type="password"> <a style="text-decoration:none;" href="../ChoseGetPass.shtml"><font color="#296cc7">找回密码</font></a>
+                    <label id="loginpwd_succeed" class="blank invisible"></label>
+                    <span class="clr"></span>
+                    <label id="loginpwd_error"></label>
+                  </div>
+                </div>
+                
+                <!--验证码 S -->
+                 
+                <!--验证码 E-->
+                
+                <div class="item"> <span class="label">&nbsp;</span>
+                
+                  <input class="btn-img btn-entry" id="loginsubmit" value="登录" tabindex="8" type="submit">
+                  <input type="hidden" name="returnurl" value="http://www.newmotor.com.cn/Index.shtml?do=reg">
+                </div>
+                
+              </div>
+              <div id="guide">
+                <h5>牛摩网因您精彩！</h5>
+                <div class="content">牛摩网是中国摩托车行业门户网站，业务覆盖国内1000多个城市，囊括海内外近3000余款热门车型的即时资讯、资深评测、权威数据、全面报价和覆盖领域最全面主题社区。</div>
+                <a href="register.html" class="btn-link btn-personal">注册新用户</a>
+              </div>
+              <span class="clr"></span> </div>
+          </div>
+          <div class="w">
+                <div id="footer">
+                  <div class="links">
+                        <a title="牛摩网简介" href="http://www.newmotor.com.cn/contact/intro.html">牛摩网简介</a> |
+                        <a title="业务介绍" href="http://www.newmotor.com.cn/contact/business.html">业务介绍</a> |
+                        <a title="联系我们" href="http://www.newmotor.com.cn/contact/about.html">联系我们</a> | 
+                        <a title="商务合作交流" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=361395706&amp;site=qq&amp;menu=yes">
+                                    商务QQ</a> |
+                        <a title="广告业务联系" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=195640100&amp;site=qq&amp;menu=yes">
+                                    广告QQ</a> |
+                        <a title="给牛摩网投稿" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=195640100&amp;site=qq&amp;menu=yes">
+                                投稿QQ</a>
+                                 |
+                        <a title="交换友情链接" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=32329299&amp;site=qq&amp;menu=yes">
+                                友情链接QQ</a></div> 
+            
+                <div id="copyright">CopyRight © 2012,All Rights Reserved 版权所有 深圳市锐圆市场企划有限公司 <br>备案/许可证编号：粤ICP备11020761号</div>
+                </div>
+            </div>
+</body>
+</html>

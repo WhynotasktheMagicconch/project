@@ -1,0 +1,327 @@
+#shortcart{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: none repeat scroll 0 0 #f7f7f7;
+}
+#shortcart li{
+    height: 30px;
+/*     padding: 0 11px 0 12px; */
+}
+body{
+    background-color: #7f7e7e;
+}
+.w-index{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.fr #fore1{
+    height: 30px;
+}
+.fl li a{
+    padding: 0 9px;
+}
+.fl #site-nav a{
+    border-right: 1px solid #ddd;
+}
+.fl li{
+    float: left;
+}
+#login{
+    width: 400px;
+    height: 200px;
+    background: yellowgreen;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    display: none;
+
+}
+#login .loginhead{
+    height: 30px;
+    background: #ddd;
+    line-height: 30px;
+    font-size: 16px;
+}
+#login #left{
+    float: left;
+}
+#login #close{
+    float: right
+}
+.page .leftlogin{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    border-right: 1px solid #ddd;
+    float: left;
+    padding-left: 20px;
+}
+.page .rightlogin{
+    height: 100px;
+    margin-top: 30px;
+    float: right;
+    line-height: 20px;
+    padding: 10px 60px 10px 0;
+}
+#submit{
+    background: #ff6600;
+    border: none;
+    color: white;
+}
+#alert-message{
+    display: none;
+}
+/* header2 */
+#o-header-2013 {
+    background: #FFFFFF;
+}
+#header-2013 {
+    height: 60px;
+    padding: 15px 0;
+}
+.w-index {
+    width: 1200px;
+    margin: 0 auto;
+}
+#logo-2013 {
+    float: left;
+    width: 280px;
+}
+/* 购物车 */
+#settleup-2013 {
+    float: right;
+    height: 30px;
+    margin-top: 12px;
+    position: relative;
+    width: 126px;
+    z-index: 9;
+    font-size: 12px;
+}
+#settleup-2013 dt {
+    background-color: #f7f7f7;
+    background-position: -115px -84px;
+    border: 1px solid #efefef;
+    cursor: pointer;
+    height: 30px;
+    padding: 0 20px 0 30px;
+    position: absolute;
+    text-align: center;
+    width: 74px;
+    z-index: 3;
+}
+.ld s, .ld b, .ld .block {
+    overflow: hidden;
+    position: absolute;
+}
+#settleup-2013 dt .shopping {
+    background-image: url("http://www.newmotor.com.cn/Images/shop/20130330A_2.png");
+    background-position: -133px -279px;
+    color: #fff;
+    left: 20px;
+    padding-left: 6px;
+    position: absolute;
+    top: -13px;
+}
+#settleup-2013 dt, #settleup-2013 dl.hover dt, #settleup-2013 .nogoods b {
+    background-image: url("http://www.newmotor.com.cn/Images/shop/20130330A_2.png");
+    background-repeat: no-repeat;
+}
+#settleup-2013 dt a {
+    line-height: 27px;
+}
+#settleup-2013 dt b {
+    border-color: transparent transparent transparent #ccc;
+    border-style: dashed dashed dashed solid;
+    border-width: 5px;
+    height: 0;
+    overflow: hidden;
+    right: 4px;
+    top: 9px;
+    width: 0;
+}
+#settleup-2013 dt .shopping span {
+    background-image: url("http://www.newmotor.com.cn/Images/shop/20130330A_2.png");
+    background-position: 100% -250px;
+    display: block;
+    float: left;
+    height: 20px;
+    padding-right: 6px;
+}
+/* search */
+#search-2013-index {
+    float: right;
+    padding: 10px 0 0 0;
+    width: 530px;
+    margin-right: 60px;
+}
+#search-2013-index .i-search {
+    border: 3px solid #ddd;
+    height: 30px;
+    margin-bottom: 3px;
+    width: 504px;
+    z-index: 11;
+}
+#search-2013-index .text {
+    background-color: #fff;
+    background-position: 0 -360px;
+    background-repeat: repeat-x;
+    color: #999;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px;
+    width: 416px;
+}
+#search-2013-index .button {
+    background: #ff6600;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    width: 75px;
+}
+#search-2013-index input {
+    border: 0 none;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+/* nav */
+.ban {
+    margin: 0 auto;
+    width: 100%;
+    background: #ff6600;
+}
+.root61 .w {
+    width: 1000px;
+    margin: 0 auto;
+}
+#nav-2013 {
+    background: #ff6600;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 210px;
+    z-index: 6;
+    position: relative;
+}
+#navitems-2013 li:hover{
+    background: rgb(254, 187, 142) none repeat scroll 0% 0%;
+}
+#treasure {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#navitems-2013{
+    height: 40px;
+}
+#navitems-2013 li {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 83px;
+}
+#navitems-2013 li a {
+    color: #fff;
+    font-family: simsun;
+    font: 700 15px/40px "microsoft yahei";
+    text-align: center;
+    text-decoration: none;
+    width: 85px;
+}
+#navitems-2013 li.fr {
+    float: right;
+    width: 65px;
+}
+#a9{
+    margin-right: 100px;
+}
+#navitems-2013 li.fr a {
+    font-size: 14px;
+    font-weight: normal;
+    width: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.w-index1 {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+#service-2013 {
+    padding: 10px 20px;
+    margin: 20px 0;
+    background: #FFF;
+    border-top: 1px solid #f1f1f1;
+}
+#service-2013 dl {
+    float: left;
+    width: 196px;
+}
+#service-2013 dt {
+    position: relative;
+    padding: 6px 0 6px 44px;
+    font: 14px "microsoft yahei";
+    zoom: 1;
+}
+#service-2013 dl.fore1 b {
+    background-position: 0 -55px;
+}
+#service-2013 dt b {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+}
+#service-2013 dt {
+    font: 14px "microsoft yahei";
+}
+#service-2013 dd {
+    min-height: 120px;
+    padding-left: 24px;
+    margin-left: 20px;
+    line-height: 20px;
+}
+.clr {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.footer-index {
+    padding: 23px 0 31px;
+    border-top: 1px solid #f1f1f1;
+    text-align: center;
+    line-height: 25px;
+}

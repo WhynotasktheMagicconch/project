@@ -1,0 +1,95 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>菜单的淡入淡出</title>
+        <script src="../js/jquery-1.10.1.min.js"></script>
+        <!--调用jQuery插件实现淡入淡出的效果-->
+        <script type="text/javascript">
+            $(function () {
+                $(".nav li").hover(function () {
+                    $('ul', this).fadeIn();
+                }, function () {
+                    $('ul', this).fadeOut();
+                });
+            });
+        </script>
+    <style type="text/css">
+            body{
+                font-family:Arial,sans-serif ;/*界面字体*/
+                font-size:15px;
+            }
+            .nav{/*导航条设置*/
+                 margin:0;
+                 padding:0;
+                 list-style:none;/*去掉一级菜单的列表符号*/
+            }
+            .nav li{
+                float:left;
+                width:150px;
+                position:relative;
+            }
+                .nav li a{
+                    background: #262626;
+                    color: #fff;
+                    display: block;
+                    padding: 8px 7px 8px 7px;
+                    text-align:center;
+                    text-decoration:none;
+                    text-transform:uppercase;/*将小写的英文字母变成大写*/
+                }
+                 .nav li a:hover{/*将鼠标悬停在上面时字体的颜色变化*/
+                     color:#bf3826;
+                 }
+                .nav ul {
+                    position: absolute; /*相对位置*/
+                    left: 0;
+                    display: none;/*隐藏子列表项，用于在jQuery中动画实现*/
+                    margin: 0 0 0 -1px;
+                    padding: 0;
+                    list-style: none;
+                    border-bottom: 3px solid #bf3826;
+                }
+                  .nav ul li{
+                      width:180px;
+                      float:left;
+                      border-top:none;
+                  }
+                   .nav ul a{
+                       display:block;
+                       height:15px;
+                       padding:8px 7px 13px 7px;
+                       color:#fff;
+                       border-top:none;
+                       text-decoration:none;
+                       border-bottom:1px dashed #6b6b6b;
+                   }
+                   .nav ul a:hover{
+                       color:#bf3826;
+                   }
+        </style>
+    </head>
+    <body>
+        <div style="width:650px;margin:0 auto">
+            <ul class="nav">
+                <!--一级菜单-->
+                <li><a href="#">home</a></li>
+                <li><a href="#">phone</a>
+                <ul>
+                    <!--二级菜单-->
+                    <li><a href="#">iphone4</a></li>
+                    <li><a href="#">iphone4s</a></li>
+                    <li><a href="#">iphone5</a></li>
+                    <li><a href="#">iphone5s</a></li>
+                </ul>
+                </li>
+                <li><a href="#">ipad</a>
+                <ul>
+                    <li><a href="#">ipad mini</a></li>
+                    <li><a href="#">ipad Air</a></li>
+                    <li><a href="#">ipad Ari2</a></li>
+                </ul>
+                </li>
+            </ul>
+    
+        </div>
+    </body>
+    </html>

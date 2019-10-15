@@ -1,0 +1,729 @@
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}  
+.clr {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.m {
+    overflow: hidden;
+}
+.m  {
+    margin-bottom: 10px;
+} 
+.form label, .form input, .form select, .form textarea, .form button, .form .label {
+    float: left;
+    font-size: 12px;
+} 
+.hide {
+    display: none;
+} 
+.button {
+    border: 0 none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.ban{
+    margin: 0 auto;
+    width: 100%;
+	 background:#ff6600;
+	}
+.w {
+    margin: 0 auto;
+    width: 1000px;
+} 
+.lh {
+    overflow: hidden;
+}
+.lh li, .lh dl, .lh .item {
+    float: left;
+}
+
+.ld {
+    position: relative;
+}
+.ld s, .ld b, .ld .block {
+    overflow: hidden;
+    position: absolute;
+} 
+#shortcut-2013 .fl b, #shortcut-2013 .fr b {
+    background-image: url("http://www.newmotor.com.cn/Images/shop/20130330A_2.png");
+    background-repeat: no-repeat;
+}
+#shortcut-2013, #shortcut-2013 .w {
+    background: none repeat scroll 0 0 #f7f7f7;
+    height: 30px;
+}
+#shortcut-2013 {
+    border-bottom: 1px solid #eee;
+    line-height: 30px;
+    width: 100%;
+}
+#shortcut-2013 li {
+    height: 30px;
+    padding: 0 11px 0 12px;
+}
+#shortcut-2013 li s {
+    border-left: 1px solid #ddd;
+    height: 12px;
+    left: 0;
+    overflow: hidden;
+    top: 9px;
+    width: 0;
+}
+#shortcut-2013 b {
+    transition: transform 0.2s ease-in 0s;
+}
+#shortcut-2013 .fl {
+    overflow: visible;
+}
+#shortcut-2013 .fl .fore1 {
+    padding-left: 16px;
+    z-index: 13;
+} 
+#shortcut-2013 .fr {
+    height: 30px;
+    overflow: visible;
+}
+#shortcut-2013 .fr b {
+    background-position: -95px -55px;
+    height: 4px;
+    right: 8px;
+    top: 13px;
+    width: 7px;
+}
+#shortcut-2013 .menu {
+   /* width: 80px;
+	*width:85px;
+	_width:80px;*/
+    z-index: 12;
+}
+#shortcut-2013 .dd {
+    display: none;
+}
+#shortcut-2013 .hover .outline, #shortcut-2013 .hover .dd {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+    position: absolute;
+}
+#shortcut-2013 .hover .outline {
+    height: 28px;
+    left: 5px;
+    top: 3px;
+    width: 73px;
+    z-index: -1;
+}
+#shortcut-2013 .hover .blank {
+    background: none repeat scroll 0 0 #fff;
+    height: 8px;
+    left: 6px;
+    overflow: hidden;
+    position: absolute;
+    top: 23px;
+    width: 73px;
+    z-index: 1;
+}
+#shortcut-2013 .hover .dd {
+    display: block;
+    top: 30px;
+}
+#shortcut-2013 .fr .hover b {
+    transform: rotate(180deg);
+}
+#biz-service.hover .dd {
+    left: 5px;
+    width: 73px;
+}
+#biz-service.hover .dd div {
+    line-height: 22px;
+    padding-left: 6px;
+}
+#site-nav .dd {
+    left: -172px;
+    width: 250px;
+}
+#site-nav .dd dt {
+    font-weight: 700;
+    line-height: 20px;
+    padding: 4px 0 4px 9px;
+}
+#site-nav .dd dl {
+    float: none;
+    width: auto;
+}
+#site-nav .dd dl dd {
+    border-bottom: 1px solid #f2f2f2;
+    line-height: 22px;
+    margin: 0 9px;
+    overflow: hidden;
+    padding-bottom: 3px;
+}
+#site-nav .dd dl div {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+#site-nav .dd .fore3 dd {
+    border-bottom: 0 none;
+}
+#site-nav .dd .fore3 {
+    padding-bottom: 4px;
+}
+#site-nav .dd .fore1 div {
+    margin-right: 0;
+    width: 58px;
+}
+#header-2013 {
+    height: 60px;
+    padding: 15px 0;
+}
+#logo-2013 {
+    float: left;
+    width: 280px;
+}
+#logo-2013 a:link b, #logo-2013 a:visited b {
+    cursor: pointer;
+    height: 38px;
+    left: 168px;
+    top: 12px;
+    width: 100px;
+}
+#logo-2013 a:hover b, #logo-2013 a:active b {
+    background: url("http://www.newmotor.com.cn/Images/shop/20130330A_2.png") no-repeat scroll 0 -312px #fff;
+    display: none;
+}
+#search-2013 {
+    float: left;
+    padding:10px 0 0 0;
+    width: 530px;
+}
+#search-2013 input {
+    border: 0 none;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+#search-2013 .i-search {
+    border: 3px solid #ddd;
+    height: 30px;
+    margin-bottom: 3px;
+    width: 504px;
+   /* z-index: 11;*/
+}
+#search-2013 .form {
+    height: 30px;
+    overflow: hidden;
+}
+#search-2013 .text {
+    background-color: #fff;
+    background-position: 0 -360px;
+    background-repeat: repeat-x;
+    color: #999;
+    font-family: arial,"����";
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px;
+    width: 416px;
+}
+#search-2013 .button {
+    background:#ff6600;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    width: 78px;
+}
+#search-2013 .text, #search-2013 .button {
+}
+#search-2013 #shelper {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ff6600;
+    box-shadow: 0 0 5px #999;
+    left: -3px;
+    overflow: hidden;
+    position: absolute;
+    top: 32px;
+    width: 308px;
+}
+#search-2013 #shelper li.close:hover {
+    background: none repeat scroll 0 center rgba(0, 0, 0, 0);
+}
+#search-2013 .text:focus {
+    background-color: #fcfcfc;
+    box-shadow: 2px 2px 3px #d2d2d2 inset;
+}
+
+
+#shelper li {
+    cursor: pointer;
+    line-height: 22px;
+    overflow: hidden;
+    padding: 1px 6px;
+}
+#shelper .search-item {
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 190px;
+}
+#shelper li.fore1 .search-item {
+    width: 170px;
+}
+#shelper .search-count {
+    color: #aaa;
+    overflow: hidden;
+    text-align: right;
+}
+#shelper .close {
+    border-top: 1px solid #efefef;
+    text-align: right;
+}
+#shelper .item3 {
+    cursor: default;
+}
+#shelper .item3 a {
+    float: left;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+#shelper li.fore1 {
+    border-bottom: 1px solid #ddd;
+    padding: 0;
+    width: 100%;
+}
+#shelper li.fore1 .item1 {
+    float: none;
+    height: 22px;
+    overflow: hidden;
+    padding: 1px 2px 1px 20px;
+    width: auto;
+}
+#shelper li.fore1 div.fore1 {
+    padding: 0 6px;
+}
+#shelper li.fore1 strong {
+    color: #c00;
+}
+#shelper li.fore1 .fore1 strong {
+    color: #333;
+}
+#shelper li.fore1 .item1 {
+    float: none;
+    padding: 1px 6px 1px 20px;
+    width: auto;
+}
+#shelper li.fore1 .item2 {
+    float: none;
+    padding: 1px 6px 1px 20px;
+    width: auto;
+}
+#shelper li.fore1 .item3 {
+    color: #9c9a9c;
+    float: none;
+    width: auto;
+}
+#shelper li.fore1 span {
+    float: left;
+}
+#shelper li:hover {
+    background: none repeat scroll 0 0 #ffdfc6;
+}
+#shelper li.fore1:hover, #shelper li.close:hover {
+    background: none repeat scroll 0 center rgba(0, 0, 0, 0);
+}
+#shelper li.fore1 div:hover {
+    background: none repeat scroll 0 0 #ffdfc6;
+}
+#settleup-2013 dt, #settleup-2013 dl.hover dt, #settleup-2013 .nogoods b {
+    background-image: url("http://www.newmotor.com.cn/Images/shop/20130330A_2.png");
+    background-repeat: no-repeat;
+}
+#settleup-2013 {
+    float: right;
+    height: 30px;
+    margin-top: 12px;
+    position: relative;
+    width: 126px;
+    z-index: 9;
+	font-size:12px;
+}
+#settleup-2013 dt {
+    background-color: #f7f7f7;
+    background-position: -115px -84px;
+    border: 1px solid #efefef;
+    cursor: pointer;
+    height: 30px;
+    padding: 0 20px 0 30px;
+    position: absolute;
+    text-align: center;
+    width: 74px;
+    z-index: 3;
+	*width:84px;
+	_width:84px;
+}
+#settleup-2013 dt .shopping {
+    background-image: url("http://www.newmotor.com.cn/Images/shop/20130330A_2.png");
+    background-position: -133px -279px;
+    color: #fff;
+    left: 20px;
+    padding-left: 6px;
+    position: absolute;
+    top: -13px;
+}
+#settleup-2013 dt .shopping span {
+    background-image: url("http://www.newmotor.com.cn/Images/shop/20130330A_2.png");
+    background-position: 100% -250px;
+    display: block;
+    float: left;
+    height: 20px;
+    padding-right: 6px;
+}
+#settleup-2013 dt a {
+    line-height: 27px;
+}
+#settleup-2013 dt b {
+    border-color: transparent transparent transparent #ccc;
+    border-style: dashed dashed dashed solid;
+    border-width: 5px;
+    height: 0;
+    overflow: hidden;
+    right: 4px;
+    top: 9px;
+    width: 0;
+}
+#settleup-2013 dd {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 32px;
+    width: 350px;
+}
+#settleup-2013 dl.hover dt {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    background-position: -115px -114px;
+    border-color: #e3e3e3 #e3e3e3 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    box-shadow: 0 0 10px #ddd;
+    height: 32px;
+}
+#settleup-2013 dl.hover s {
+    background: none repeat scroll 0 0 #fff;
+    bottom: -10px;
+    height: 10px;
+    left: -10px;
+    position: absolute;
+    width: 134px;
+}
+#settleup-2013 dl.hover dd {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+    display: block;
+} 
+#settleup-iframe {
+    background: none repeat scroll 0 0 #000;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 350px;
+    z-index: 1;
+}
+#settleup-2013 .prompt {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+}
+#settleup-2013 .nogoods {
+    color: #999;
+    height: 49px;
+    line-height: 49px;
+    overflow: hidden;
+    padding-left: 30px;
+}
+#settleup-2013 .nogoods b {
+    background-position: 0 0;
+    float: left;
+    height: 49px;
+    width: 56px;
+} 
+#settleup-2013 ul {
+    margin-top: -1px;
+}
+#settleup-2013 li {
+    border-top: 1px dotted #ccc;
+    line-height: 17px;
+    overflow: hidden;
+    padding: 8px 10px;
+    vertical-align: bottom;
+}
+#settleup-2013 li:hover, #settleup-2013 li.hover {
+    background: none repeat scroll 0 0 #f5f5f5;
+} 
+#settleup-2013 .delete {
+    color: #005ea7;
+}
+#settleup-2013 li .gift {
+    height: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 310px;
+}
+#settleup-2013 li .gift a, #settleup-2013 li .gift-jq {
+    color: #999;
+}
+#settleup-2013 .gift-jq {
+    clear: both;
+}
+#settleup-2013 .dt {
+    padding: 2px 10px;
+}
+#settleup-2013 .dt-mz {
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 310px;
+}
+#settleup-2013 .dt-mz a {
+    color: #999;
+}
+#settleup-2013 .dt-mz:hover {
+    background: none repeat scroll 0 0 #fff;
+}  
+
+
+#nav-2013 {
+    background:#ff6600;
+    height: 40px;
+    /*margin-bottom: 10px;
+    padding-left: 210px;
+    z-index: 6;*/
+    position: relative;
+}
+#navitems-2013 {
+    background: -moz-linear-gradient(center top , #ff6600, #ff6600) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#navitems-2013, #navitems-2013 li, #navitems-2013 li a {
+    height: 40px;
+}
+#navitems-2013 li {
+    float: left;
+    position: relative;
+    width: 83px;
+}
+#navitems-2013 li a {
+    color: #fff;
+    font: 700 15px/40px "microsoft yahei";
+    left: 0;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+    width: 85px;
+}
+#navitems-2013 li a:hover {background:#febb8e;}
+#navitems-2013 .curr, #navitems-2013 .hover {
+   /* z-index: 1;*/
+}
+#navitems-2013 li.fr {float:right;width:65px}
+#navitems-2013 li.fr a {font-size:14px;font-weight:normal;width:65px;}
+#navitems-2013 .curr a, #navitems-2013 .hover a {
+    background:#febb8e;
+}
+#treasure {
+    position: absolute;
+    right: 0;
+    top: 0;
+}  
+#logo-2013 a b {
+    display: none;
+}   
+/*#comment {
+    float: left;
+    width: 384px;
+}  */
+#treasure .guide {
+    color: #fff;
+    float: right;
+    line-height: 40px;
+    padding: 0 10px;
+}
+#treasure .guide span {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.footer{padding:23px 0 31px;border-top:1px solid #f1f1f1; text-align:center; line-height:25px;}
+
+
+
+/*service*/
+#service-2013 dl b{background-image:url("http://www.newmotor.com.cn/Images/shop/20130330A_1.png");background-repeat:no-repeat}
+#service-2013{padding:10px 20px;margin:20px 0;background:#FFF;border-top:1px solid #f1f1f1;}
+#service-2013 dl{float:left;width:196px}
+#service-2013 dt{position:relative;padding:6px 0 6px 44px;font:14px "microsoft yahei";zoom:1}
+#service-2013 dd{min-height:120px;padding-left:24px;margin-left:20px;line-height:20px}
+#service-2013 dt b{position:absolute;top:5px;left:0;width:40px;height:40px}
+#service-2013 dl.fore1 b{background-position:0 -55px}
+#service-2013 dl.fore2 b{background-position:-50px -55px}
+#service-2013 dl.fore3 b{background-position:0 -102px}
+#service-2013 dl.fore4 b{background-position:-50px -102px}
+#service-2013 dl.fore5 b{background-position:0 -149px}
+#service-2013 dl.fore5{width:160px}
+#service-2013 .fr{display:none}
+*html #service-2013 dd{height:120px}
+.root61 #service-2013 dl.fore5{width:160px}
+
+
+/*to-top*/
+
+.skin_gouwu a{background:url("http://www.newmotor.com.cn/Images/shop/top.png") no-repeat}
+.egotop{height:94px;width:45px;text-indent:-9999px}
+.egotop a{display:block;width:44px;height:46px;margin-top:1px}
+.skin_gouwu .feedback-btn{background-position:0 0}
+.skin_gouwu .feedback-btn:hover{background-position:-46px 0}
+.skin_gouwu .egotop-btn{background-position:0 -47px;display:none}
+.skin_gouwu .egotop-btn:hover{background-position:-46px -47px}
+
+
+/*index*/
+
+#search-2013-index {
+    float: right;
+    padding:10px 0 0 0;
+    width: 530px;
+	margin-right:60px;
+}
+#search-2013-index input {
+    border: 0 none;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+#search-2013-index .i-search {
+    border: 3px solid #ddd;
+    height: 30px;
+    margin-bottom: 3px;
+    width: 504px;
+   /* z-index: 11;*/
+}
+#search-2013-index .form {
+    height: 30px;
+    overflow: hidden;
+}
+#search-2013-index .text {
+    background-color: #fff;
+    background-position: 0 -360px;
+    background-repeat: repeat-x;
+    color: #999;
+    font-family: arial,"����";
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px;
+    width: 416px;
+}
+#search-2013-index .button {
+    background:#ff6600;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    width: 78px;
+}
+#search-2013-index .text, #search-2013-index .button {
+}
+#search-2013-index #shelper {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ff6600;
+    box-shadow: 0 0 5px #999;
+    left: -3px;
+    overflow: hidden;
+    position: absolute;
+    top: 32px;
+    width: 308px;
+}
+#search-2013-index #shelper li.close:hover {
+    background: none repeat scroll 0 center rgba(0, 0, 0, 0);
+}
+#search-2013-index .text:focus {
+    background-color: #fcfcfc;
+    box-shadow: 2px 2px 3px #d2d2d2 inset;
+}
+
+.footer img {width:100px;height:100px;}
+#popDiv_wx img {width:250px;height:250px;}
+
+
+/**********start:ţĦ�̳���ƷҲ�Ź���ʽ***********************/
+
+.tgactivity{ margin:0;}
+.tgactivity{
+	width:1000px;
+	height:150px;
+	background-color:#a40000;
+	background-image:url(http://mall.newmotor.com.cn/images/20160604.jpg)}
+.tgactivity .box{
+	width:50%;
+	height:100%;
+	float:left;}
+.tgactivity .box h2{
+	font-size:36px;
+	color:#fff79e;
+	height:50px;
+	margin:20px 0 0 20px;
+	font-family:"΢���ź�"}
+.tgactivity .box span{
+	font-family:"΢���ź�";
+	background-color:#db4521; 
+	float:left; 
+	text-align:center; 
+	width:160px; height:30px; 
+	padding:5px;
+	color:#fdff2f; 
+	font-weight:bold; 
+	font-size:24px;
+	line-height:30px; 
+	margin:15px 0 0 100px;}
+.tgactivity .box p{
+	font-size:50px; 
+	color:#fdff2f; 
+	line-height:70px; 
+	float:left; 
+	margin-left:10px;
+	font-family:"΢���ź�";}	
+.tgactivity .text{
+	height:100%;
+	width:50%;
+	float:left;}
+.tgactivity .text .text_1	{
+	height:80px;
+	font-family:"΢���ź�";
+	line-height:100px;
+	text-align:center;}
+.tgactivity .text span{
+	font-family:"΢���ź�";
+	color:#fff;
+	line-height:50px;}
+.tgactivity .text .timing	{
+	height:70px;
+	font-family:"΢���ź�"}
+/**********end:ţĦ�̳���ƷҲ�Ź���ʽ***********************/

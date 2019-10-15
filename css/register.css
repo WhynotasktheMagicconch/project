@@ -1,0 +1,236 @@
+.header{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.ztop{
+    height: 90px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding-top: 8px;
+    position: relative;
+    width: 1000px;
+    margin-bottom: 5px;
+}
+.zleft{
+    float: left;
+}
+.zleft img{
+    margin-top: 16px;
+}
+.zright{
+    float: right;
+}
+.nav{
+    background: url("http://www.newmotor.com.cn/images/201412newindeximg/header_bg.png") repeat-x #2c4053;
+    width: 100%;
+    height: 56px;
+}
+.w1000{
+    width: 1000px;
+    height: 56px;
+    margin: 0 auto;
+}
+.nav ul {
+    float: left;
+}
+.x-bg {
+    background: #2c4053;
+    height: 56px;
+}
+
+.nav ul {
+    float: left;
+}
+.x-bg {
+    background: #2c4053;
+    height: 56px;
+}
+.d-list {
+    font: bold 14px/56px "microsoft yahei";
+    padding-left: 17px;
+    clear: both;
+    overflow: heidden;
+    display: inline;
+    width: auto;
+}
+.d-list li {
+    float: left;
+    margin-right: 10px;
+    *margin: 0 0 0 8px;
+    display: inline;
+    *margin-left: 10px;
+    display: inline;
+}
+.d-list li i {
+    height: 30px;
+    padding: 0 0 0 15px;
+    background: url("http://www.newmotor.com.cn/images/201412newindeximg/header_line.png") 0 10px no-repeat;
+    float: left;
+    margin-top: 10px;
+}
+.d-list li  a{
+    color: #F0F0F0;
+}
+#regmain{
+    text-align: center;
+}
+.regbox {
+    margin-top: 10px;
+}
+.regbox {
+    margin-bottom: 20px;
+}
+.regbox {
+    width: 1000px;
+    text-align: left;
+    margin: 0px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.regbox #regcenter {
+    padding-bottom: 20px;
+    border: #cecece solid 1px;
+    padding-top: 10px !important;
+    padding-top: 20px;
+    border-left: 1px solid #037EC9;
+    border-right: 1px solid #037EC9;
+    height: auto;
+}
+.ml {
+    position: relative;
+    background: #f3f3f3;
+    clear: both;
+    height: 35px;
+    border: #E0F1FF 1px solid;
+    padding-left: 10px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+.f14 {
+    margin: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 35px;
+    margin-bottom: 8px;
+}
+#lxfs {
+    display: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ff4200;
+    text-align: left;
+    position: absolute;
+    right: 8px;
+    top: 30px;
+    line-height: 24px;
+}
+.regusertype {
+    line-heihgt: 30px;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    height: 30px;
+}
+.regusertype li {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    margin-right: 27px;
+    text-align: center;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
+    height: 35px;
+}
+.regbox .cc {
+    clear: both;
+}
+.regbox dl {
+    line-height: 30px;
+}
+.regbox .cc dt {
+    font-size: 12px;
+    font-weight: normal;
+}
+.regbox dt {
+    text-align: left;
+    font-weight: bold;
+    height: 30px;
+    margin: 0;
+    width: 20%;
+    float: left;
+    padding-right: 2em;
+    padding-left: 30px;
+    font-size: 12px;
+}
+.regbox dd {
+    width: 300px;
+    float: left;
+    padding-right: 2em;
+    margin: 0;
+}
+.regbox .input {
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+.regbox .rank {
+    border: none;
+    background: url(../images/rank.gif) no-repeat;
+        background-position-x: 0%;
+        background-position-y: 0%;
+    width: 125px;
+    height: 22px;
+    vertical-align: middle;
+    cursor: default;
+}
+.regbox .zch {
+    color: #999;
+    margin-top: -4px;
+    font-size: 11px;
+}
+
+.footer {
+    text-align: center;
+}
+#copyright {
+    width: 970px;
+    margin: 0px auto;
+    margin-top: 0px;
+    margin-top: 10px;
+    text-align: center;
+    background: #f1f1f1;
+    height: 26px;
+    line-height: 26px;
+    color: #999;
+}
+.footer img {
+    width: 100px;
+    height: 100px;
+}
+#Verification{
+    display: block;
+    float: right;
+    margin-left: 40px;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    background: whitesmoke;
+    line-height: 25px;
+}
+#Refresh{
+    border: none;
+    background: #ff4200;
+}

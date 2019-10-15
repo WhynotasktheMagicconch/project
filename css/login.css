@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, "ËÎÌå", Lucida, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    line-height: 150%;
+}
+#logo {
+    padding: 10px 0;
+}
+.w {
+    width: 990px;
+    padding: 0;
+    margin: 0 auto;
+    zoom: 1;
+}
+a:link, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+#entry .mt {
+    height: 33px;
+    background: url(http://www.newmotor.com.cn/User/images/reg/tit_regist.jpg) #D1D1D1 repeat-x 0 -34px;
+}
+
+#entry .mc{
+    padding-top: 50px;
+}
+#entry .mc{
+    padding: 40px 40px 30px 40px;
+        padding-top: 40px;
+    border: solid #D1D1D1;
+        border-top-width: medium;
+        border-right-width: medium;
+        border-bottom-width: medium;
+        border-left-width: medium;
+    border-width: 0 1px 1px;
+    margin-bottom: 10px;
+}
+#entry .form {
+    float: left;
+    width: 540px;
+    overflow: hidden;
+}
+#entry .item {
+    padding-top: 40px;
+    height: 50px;
+    line-height: 26px;
+}
+#entry .label {
+    width: 100px;
+    text-align: right;
+    font-size: 14px;
+}
+body .fl {
+    float: left;
+}
+#entry .text_blank {
+    width: 240px;
+    height: 16px;
+    padding: 4px 3px;
+    border: 1px solid #bbb;
+    font-size: 14px;
+    font-family: arial, "宋体";
+    color: #999;
+}
+#entry .blank {
+    width: 16px;
+    height: 16px;
+    margin: 2px 5px 0;
+}
+.clr {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+}
+.form label, .form input, .form select, .form textarea, .form button, .form .label {
+    float: left;
+    font-size: 12px;
+}
+#entry .text {
+    width: 240px;
+    height: 16px;
+    padding: 4px 3px;
+    border: 1px solid #bbb;
+    font-size: 14px;
+    font-family: arial, "ËÎÌå";
+}
+#entry .btn-entry {
+    padding-bottom: 5px;
+    margin-left: 60px;
+}
+#entry .btn-entry {
+    width: 100px;
+    height: 30px;
+    background: url(http://www.newmotor.com.cn/User/images/reg/new-regist.jpg) no-repeat 0px -31px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 60px;
+}
+#guide {
+    float: right;
+    width: 300px;
+    height: 290px;
+    padding: 0px 0 20px 40px;
+    border-left: 1px solid #E7E7E7;
+}
+h5 {
+    font-size: 14px;
+}
+#guide .content {
+    color: #666;
+    padding: 10px 0 0;
+}
+#guide .btn-personal {
+    width: 137px;
+    height: 35px;
+    background: url(http://www.newmotor.com.cn/User/images/reg/bg_regist.jpg) no-repeat 0 -186px;
+    line-height: 35px;
+    margin: 20px auto;
+        margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 35px;
+}
+.w {
+    width: 990px;
+    padding: 0;
+    margin: 0 auto;
+    zoom: 1;
+}
+#footer {
+    padding-bottom: 30px;
+    text-align: center;
+}
+#footer .links a, #footer .links span {
+    margin: 0 10px;
+}
