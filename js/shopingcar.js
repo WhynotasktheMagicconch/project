@@ -30,6 +30,7 @@ define(["jquery","jquery-cookie"],function(){
                     expires:1
                 })
                 shopcarsum();
+                showTotal();
             })
            
     }
@@ -75,6 +76,7 @@ define(["jquery","jquery-cookie"],function(){
     }
     function jisuan(){
             showTotal();
+            alert("1");
         $("#shoppingtable").on("click",".tdbg .boxx",function(){
             //选择多选框后重新计算
             showTotal();
