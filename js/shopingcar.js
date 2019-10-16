@@ -31,6 +31,7 @@ define(["jquery","jquery-cookie"],function(){
                 })
                 shopcarsum();
                 showTotal();
+                showTotal();
             })
            
     }
