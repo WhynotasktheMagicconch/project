@@ -14,7 +14,7 @@ $(function(){
                 }else{
                     $("#loginpwd_error").html(obj.message);
                 }
-                $.cookie("isLogin","aa",{
+                $.cookie("isLogin",$("#Username").val(),{
                     exprires:1
                 });
                 /* alert($.cookie("isLogin")) */

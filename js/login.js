@@ -27,12 +27,11 @@ define(["jquery","jquery-cookie"],function($){
                             'color':'green'
                         });
                         $("#login").css({"display":"none"});
-
-                        $.cookie("isLogin","aa",{
+                        $.cookie("isLogin",$("#name").val(),{
                             exprires:1
                         });
                         window.location.reload();
-                        alert($.cookie("isLogin"))
+                        
                     }
                     $("#alert-message").html(obj.message);
                 },
@@ -45,7 +44,7 @@ define(["jquery","jquery-cookie"],function($){
     function cookie(){
         var cookieStar =$.cookie("isLogin")
         if(cookieStar){
-            $(".toplogintips").html("欢迎来到牛魔商场！！您已经登录<a href='' id='esc'>[退出]</a>");
+            $(".toplogintips").html("尊敬的用户“"+cookieStar+"”欢迎来到牛魔商场！！您已经登录<a href='' id='esc'>[退出]</a>");
         }
         $("#esc").click(function(){
             $.cookie("isLogin",null);
