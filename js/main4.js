@@ -11,7 +11,6 @@ require.config({
         "jiazai":"jiazai",
         "banner":"banner",
         "login":"login", 
-        "hiddennav":"hiddennav"
     },
     shim:{
         //设置依赖关系 先引入jquery.js 然后再隐去jquery-cookie
@@ -27,16 +26,14 @@ require(["scrolltop"],function(scrolltop){
 /*     scrolltop.returnhtml(); */
 })
 require(["jiazai"],function(jiazai){
-    jiazai.msgajax();
+   /*  jiazai.msgajax(); */
     jiazai.listmsg();
+    jiazai.list();
 })
 require(["banner"],function(banner){
-    banner.banner();
+ /*    banner.banner(); */
 })
 require(["login"],function(login){
     login.login();
     login.cookie();
-})
-require(["hiddennav"],function(hiddennav){
-    hiddennav.leftshow();
 })

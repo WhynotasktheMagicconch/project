@@ -1,1 +1,8 @@
-[{"id":0,"href":"http://mall.newmotor.com.cn/","msg":"首页"},{"id":1,"href":"http://mall.newmotor.com.cn/motor/","msg":"摩托车"},{"id":2,"href":"http://mall.newmotor.com.cn/diandongche/","msg":"电动车"},{"id":3,"href":"http://mall.newmotor.com.cn/qishizhuangbei/","msg":"骑士装备"},{"id":4,"href":"http://mall.newmotor.com.cn/zhuangshiyanghu/","msg":"装饰养护"},{"id":5,"href":"http://mall.newmotor.com.cn/lingbujian/","msg":"零部件"},{"id":6,"href":"http://mall.newmotor.com.cn/fuwu/","msg":"实体服务"},{"id":7,"href":"http://mall.newmotor.com.cn/qiyouji/","msg":"汽油机相关"}]
+[{"id":0,"href":"listmsg.html","msg":"首页"},
+    {"id":1,"href":"listmsg.html","msg":"摩托车"},
+    {"id":2,"href":"listmsg.html","msg":"电动车"},
+    {"id":3,"href":"listmsg.html","msg":"骑士装备"},
+    {"id":4,"href":"listmsg.html","msg":"装饰养护"},
+    {"id":5,"href":"listmsg.html","msg":"零部件"},
+    {"id":6,"href":"listmsg.html","msg":"实体服务"},
+    {"id":7,"href":"listmsg.html","msg":"汽油机相关"}]

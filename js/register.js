@@ -69,7 +69,7 @@ $(function(){
                 if(obj.code){
                     alert(obj.message);
                 }else{
-                    location.href = "MN.html"
+                    location.href = "login.html"
                 }
                 alert(obj.message);
                 // $("#usernamemsg").html(obj.message);

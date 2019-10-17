@@ -277,11 +277,87 @@
                 }
             })
         }
-
+        function listmsg(){
+            $.ajax({
+                type:"get",
+                url:"../listmsg.json",
+                success:function(arr){
+                    for(var i = 0 ;i<arr.length;i++){
+                        var node = $(`
+                                <div overfour="false" class="prop-attrs ">  
+                            <div class="attr">	
+                                <div class="a-key">${arr[i].title}</div>	
+                            <div class="a-values">	  
+                                <div class="v-fold">		
+                                    <ul class="f-list">		  
+                                        
+                                        </ul>	  
+                                    </div>	
+                                </div>  
+                            </div>
+                        </div>
+                        `);
+                node.appendTo(".attrs");
+                var data = arr[i].a;
+                
+                for(var j = 0; j <data.length;j++){
+                    var node1 = $(`
+                    <li><a href="#">${data[j]}</a></li>
+                    `);
+                    node1.appendTo(node.find(".f-list"));
+                }
+                    }
+                },
+                error:function(msg){
+                    alert(msg);
+                }
+            })
+        }
+        function list(){
+            $.ajax({
+                type:"get",
+                url:"../listmessage.json",
+                success:function(arr){ 
+                    for(var i=0;i<arr.length;i++){
+                        var node = $(`
+                        <li class="liclass">
+                        <div class="lh-wrap">
+               
+                         <div class="layout-ie8">
+                           <div class="p-img"> <a title="新大洲本田【预付款】CBF190R国四电喷摩托车跨骑车运动休闲摩旅" target="_blank" href="#"> <img class="err-product" src="${arr[i].img}"> </a>
+                             <div shop_id="5445" tpl="1"></div>
+                           </div>
+                           </div>
+               
+                           <div class="p-name"> <a title="新大洲本田【预付款】CBF190R国四电喷摩托车跨骑车运动休闲摩旅" target="_blank" href="#">${arr[i].h1}</a> </div>
+                           <div class="p-price">
+                           
+                           <span style="float:left">价格:&nbsp￥;<font style="font-size:14px;font-weight:bold;color:#333;">${arr[i].price}</font></span>
+                           <span style="float:right">定金:&nbsp;<strong>￥3000</strong>
+                         </span>
+                           
+                           <span id="p5445"></span> </div>
+                         <div style="color:#999;padding:0 5px;">
+                         <span style="float:left;"><img src="http://www.newmotor.com.cn/images/shop/cart-shop1.png" style="vertical-align:middle;width:15px;height:15px;">&nbsp;&nbsp;已售&nbsp;433&nbsp;辆</span><span style="float:right;">上海</span>
+                         </div>
+                         </div>
+                       </li>
+                        
+                        `);
+                        node.appendTo(".list-h");
+                    }
+                },
+                error:function(msg){
+                    alert(msg);
+                }
+            })
+        }
         return {
             msgajax:msgajax,
             XQajax:XQajax,
-            shopingcar:shopingcar
+            shopingcar:shopingcar,
+            listmsg:listmsg,
+            list:list
         }
     })
     
